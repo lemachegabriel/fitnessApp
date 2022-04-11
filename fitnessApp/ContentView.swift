@@ -8,18 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel: DateViewModel
     var body: some View {
         ScrollView(.vertical, showsIndicators: false){
-            Home()
+            Home().environmentObject(viewModel)
         }
         .frame(maxWidth: .infinity)
-        .background( Background())
+        .background(Background())
         .preferredColorScheme(.dark)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(viewModel: DateViewModel())
     }
 }
