@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView(.vertical, showsIndicators: false){
+            Home()
+        }
+        .frame(maxWidth: .infinity)
+        .background( Background())
+        .preferredColorScheme(.dark)
     }
 }
 
