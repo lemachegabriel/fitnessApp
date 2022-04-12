@@ -12,6 +12,7 @@
 		C08B40772800C48900288781 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B40762800C48900288781 /* Home.swift */; };
 		C08B407928045F7A00288781 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B407828045F7A00288781 /* Background.swift */; };
 		C08B407C280490D500288781 /* DateControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B407B280490D500288781 /* DateControllers.swift */; };
+		C08B407E2804AD1F00288781 /* RingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08B407D2804AD1F00288781 /* RingCard.swift */; };
 		C0A4AD1427DF7F2800CBCD48 /* fitnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A4AD1327DF7F2800CBCD48 /* fitnessAppApp.swift */; };
 		C0A4AD1627DF7F2800CBCD48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A4AD1527DF7F2800CBCD48 /* ContentView.swift */; };
 		C0A4AD1827DF7F2A00CBCD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A4AD1727DF7F2A00CBCD48 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		C08B40762800C48900288781 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C08B407828045F7A00288781 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		C08B407B280490D500288781 /* DateControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateControllers.swift; sourceTree = "<group>"; };
+		C08B407D2804AD1F00288781 /* RingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingCard.swift; sourceTree = "<group>"; };
 		C0A4AD1027DF7F2800CBCD48 /* fitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A4AD1327DF7F2800CBCD48 /* fitnessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitnessAppApp.swift; sourceTree = "<group>"; };
 		C0A4AD1527DF7F2800CBCD48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				C08B40762800C48900288781 /* Home.swift */,
 				C08B407828045F7A00288781 /* Background.swift */,
+				C08B407D2804AD1F00288781 /* RingCard.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				C0A4AD1627DF7F2800CBCD48 /* ContentView.swift in Sources */,
 				C08B407C280490D500288781 /* DateControllers.swift in Sources */,
 				C08B407328006D2A00288781 /* Step.swift in Sources */,
+				C08B407E2804AD1F00288781 /* RingCard.swift in Sources */,
 				C08B40772800C48900288781 /* Home.swift in Sources */,
 				C08B407127FDBD4C00288781 /* Ring.swift in Sources */,
 				C0A4AD1427DF7F2800CBCD48 /* fitnessAppApp.swift in Sources */,

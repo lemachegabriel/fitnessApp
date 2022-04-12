@@ -58,6 +58,9 @@ struct Home: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.vertical, 12)
+            
+            //MARK: Ring View
+            RingCard()
         }
         .padding()
         .onAppear(perform: viewModel.extractCurrentWeek)
